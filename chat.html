@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang='fr'>
+<head>
+  <meta charset='UTF-8'>
+  <title>Zynox - Chat</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="chat.js" defer></script>
+</head>
+<body>
+  <div class="chat-container">
+    <aside class="sidebar">
+      <h2>Amis</h2>
+      <ul id="friendsList"></ul>
+      <input type="text" id="addFriendInput" placeholder="Ajouter un ami...">
+      <button id="addFriendBtn">Ajouter</button>
+    </aside>
+
+    <main class="chat-main">
+      <header class="chat-header">
+        <h2 id="chatWith">Sélectionnez un ami</h2>
+        <button id="callBtn">📞 Appeler</button>
+      </header>
+
+      <section id="messages"></section>
+
+      <footer class="chat-footer">
+        <input type="text" id="messageInput" placeholder="Écrire un message...">
+        <button id="sendBtn">Envoyer</button>
+      </footer>
+    </main>
+  </div>
+</body>
+</html>
